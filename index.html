@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Ahmed - Frontend Developer CV</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet">
+    <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Inter", Arial, sans-serif;
+      line-height: 1.6;
+      background: #f4f6f8;
+      color: #222;
+      padding: 40px 0;
+    }
+
+    .cv-container {
+      max-width: 850px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    header h1 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+
+    header h2 {
+      font-size: 18px;
+      font-weight: 600;
+      color: #2563eb;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 14px;
+      margin: 4px 0;
+    }
+
+    header a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    header a:hover {
+      text-decoration: underline;
+      color: #1e40af;
+    }
+
+    section {
+      margin-bottom: 32px;
+    }
+
+    h3 {
+      font-size: 18px;
+      color: #111;
+      border-left: 4px solid #2563eb;
+      padding-left: 10px;
+      margin-bottom: 14px;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    h4 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: #111;
+    }
+
+    .summary-box {
+      background: #f0f7ff;
+      padding: 14px 18px;
+      border-radius: 8px;
+      border-left: 4px solid #2563eb;
+      font-size: 14px;
+    }
+
+    .project h4 {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    p,
+    li {
+      font-size: 14px;
+      color: #333;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 6px;
+    }
+
+    /* Buttons */
+    .btn-link {
+      font-size: 12px;
+      text-decoration: none;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-weight: 500;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .btn-live {
+      background: #16a34a;
+      color: white;
+    }
+
+    .btn-live:hover {
+      background: #15803d;
+      box-shadow: 0 2px 6px rgba(22, 163, 74, 0.4);
+    }
+
+    .btn-source {
+      background: #2563eb;
+      color: white;
+    }
+
+    .btn-source:hover {
+      background: #1e40af;
+      box-shadow: 0 2px 6px rgba(37, 99, 235, 0.4);
+    }
+
+    /* Skills */
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skills-list li {
+      list-style: none;
+      background: #e5e7eb;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    @media print {
+  @page {
+    size: A4;
+    margin: 0; 
+  }
+
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .cv-container {
+    margin: 0 !important;
+    padding: 10px 20px !important;
+  }
+}
+  
+
+  </style>
+  </head>
+
+  <body>
+    <div class="cv-container">
+      <header>
+        <h1>Mohamed Ahmed</h1>
+        <h2>Frontend Developer</h2>
+        <p>
+          Email: <a
+            href="mailto:mohamed.savage2000@gmail.com">mohamed.savage2000@gmail.com</a>
+          |
+          Phone: <a href="tel:+201009174234">+20 1009174234</a>
+        </p>
+        <p>
+          GitHub: <a href="https://github.com/vipuser12"
+            target="_blank">github.com/vipuser12</a>
+        </p>
+        <p>Location: Cairo, Egypt</p>
+      </header>
+
+      <section>
+        <h3>Professional Summary</h3>
+        <div class="summary-box">
+          <p>
+            Frontend Developer with experience building responsive,
+            user-friendly web applications.
+            Skilled in React.js, JavaScript (ES6+), Tailwind CSS, and Bootstrap
+            with a strong background
+            in software engineering practices including SDLC, system analysis,
+            and requirements specification.
+            Experienced in translating Figma and UX designs into optimized code
+            and integrating APIs.
+            Passionate about leveraging web technologies and AI to deliver
+            impactful solutions.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h3>Education</h3>
+        <h4>Bachelor’s Degree in Computer Science</h4>
+        <p>Thebes Academy, Egypt — Graduated: 2025</p>
+        <ul>
+          <li>Specialization: Software Engineering (System Analysis & Design,
+            SDLC Models)</li>
+          <li>Graduation Project: Lung Cancer Detection Web App using AI and
+            React (Role: Frontend Developer)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Projects</h3>
+        <div class="project">
+          <h4>
+            Shopping Cart (JavaScript)
+            <a href="https://vipuser12.github.io/shopping-cart/" target="_blank"
+              class="btn-link btn-live">Live</a>
+            <a href="https://github.com/vipuser12/shopping-cart" target="_blank"
+              class="btn-link btn-source">Source</a>
+          </h4>
+          <p>Developed a fully functional shopping cart with item handling,
+            price calculation, and local storage
+            persistence.</p>
+        </div>
+        <div class="project">
+          <h4>
+            Lung Cancer Detection Web App (React + AI)
+            <a href="https://vipuser12.github.io/LungCancerDetection/"
+              target="_blank" class="btn-link btn-live">Live</a>
+            <a href="https://github.com/vipuser12/LungCancerDetection"
+              target="_blank"
+              class="btn-link btn-source">Source</a>
+          </h4>
+          <p>Built the frontend for a machine learning–powered app that allowed
+            users to upload scans and receive AI-based
+            analysis results.</p>
+        </div>
+      </section>
+
+      <section>
+        <h3>Technical Skills</h3>
+        <ul class="skills-list">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript (ES6+)</li>
+          <li>React.js</li>
+          <li>Tailwind CSS</li>
+          <li>Bootstrap</li>
+          <li>Responsive Design</li>
+          <li>DOM Manipulation</li>
+          <li>Git / GitHub</li>
+          <li>Version Control</li>
+          <li>System Analysis</li>
+          <li>Software Development Life Cycle (SDLC)</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Achievements</h3>
+        <ul>
+          <li>Built multiple projects from scratch using React.js and Tailwind
+            CSS.</li>
+          <li>Developed strong foundations in software engineering
+            methodologies.</li>
+          <li>Collaborated on a cross-functional team for an AI-based graduation
+            project.</li>
+        </ul>
+      </section>
+    </div>
+  </body>
+
+</html>
